@@ -17,11 +17,41 @@ Utility
     clear: both;
 }
 
+.center {
+    width: 1440px;
+    margin: 0 auto;
+}
+
 /* 
 Header
 ******************/
+.site-header {
+    background-color: black;
+}
 
+/* center-header */
+.center-header {
+    background-color: lightgreen;
+}
 
+.logo {
+    background-color: green;
+    width: 200px;
+    height: 60px;
+    margin-bottom: 2rem; 
+}
+
+.navigation-bar {
+    background-color: darkgreen;
+}
+
+.navigation-bar > div {
+    background-color: green;
+    float: left;
+    width: 100px;
+    height: 40px;
+    margin-right: 0.5rem;
+}
 
 
 /* 
