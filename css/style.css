@@ -115,6 +115,42 @@ main > div {
     height: 50%;
 }
 
+/* grid */
+.grid {
+    background-color: bisque;
+    height: 300px;
+}
+
+.row-1 {
+    background-color:cadetblue;
+    margin-bottom: 0.5rem;
+}
+
+.row-1 > .img {
+    background-color:darkslategray;
+    height: 200px;
+    float: left;
+}
+
+.row-1 > .description {
+    background-color: darkgrey;
+    height: 400px;
+    float: left;
+}
+
+.col1 {
+    width: 25%;
+}
+
+.col2 {
+    width: 46%;
+    margin: 0 2%;
+}
+
+.col3 {
+    width: 25%;
+}
+
 
 
 /* 
