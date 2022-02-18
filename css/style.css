@@ -22,12 +22,16 @@ Utility
     margin: 0 auto;
 }
 
+.border-bottom {
+    border-bottom: 1px solid grey;
+}
+
 /* 
 Header
 ******************/
 .site-header {
     background-color: black;
-    margin-bottom: 1.5rem;
+    
 }
 
 /* center-header */
@@ -58,14 +62,19 @@ Header
 /* 
 Main
 ******************/
+main > div {
+    margin-bottom: 0.5rem;
+}
+
 .site-main {
     background-color: blue;
-    
+    margin: 1.5rem auto;
 }
+
 
 /* hero-img */
 .hero-img {
-    background-color: red;
+    background-color: purple;
     width: 100%;
     height: 500px;
     border-radius: 1rem;
@@ -87,10 +96,26 @@ Main
     height: 49.5%;
 }
 
-#border-bottom {
-    border-bottom: 1px solid grey;
-
+/* leadership */
+.leadership {
+    background-color: lightblue;
+    height: 125px;
+    
 }
+
+.lead-contain {
+    background-color: lightgrey;
+    width: 300px;
+    height: 125px;
+}
+
+.lead-contain > div {
+    background-color: aliceblue;
+    width: 100%;
+    height: 50%;
+}
+
+
 
 /* 
 Footer
